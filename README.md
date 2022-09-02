@@ -9,6 +9,7 @@ https://koreaseop.github.io/HanaroMart-App/
 ```c
 -시작하기 박스 click시 code페이지로 이동
 ```
+<img src="https://user-images.githubusercontent.com/105402314/188050791-6518eddc-ee77-4167-905e-bd8285c269dc.jpg" width="375" height="500"/>
 ![KakaoTalk_20220902_114924129_02](https://user-images.githubusercontent.com/105402314/188050791-6518eddc-ee77-4167-905e-bd8285c269dc.jpg)
 
 **코드페이지**
