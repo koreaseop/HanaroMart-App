@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Noto Sans KR', sans-serif;  
+    max-width: 400px;
+    min-width: 320px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+header{
+    max-width: 400px;
+    min-width: 320px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-top: 10px;
+}
+
+header p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+main {
+    max-width: 400px;
+    min-width: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: url(../images/main-visual.png);
+    background-repeat: no-repeat;
+    background-size: 13rem;
+    background-position-x: right;
+    background-position-y: 30px;
+}
+
+main h1 {
+    color: #ccc;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+main .txt {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 30px;
+}
+
+main .start {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    background: green;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+main .start a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.start p {
+    color: #fff;
+    margin-left: 30px;
+}
+
+.start button {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-right: 20px;
+}
+
+.main-product {
+    margin-left: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-product span {
+    color: green;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrap .product {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.wrap:nth-child(1) .product{
+    background-image: url(../images/배.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap:nth-child(2) .product{
+    background-image: url(../images/사과.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap:nth-child(3) .product{
+    background-image: url(../images/참외.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap p {
+
+    margin-top: 20px;
+}
